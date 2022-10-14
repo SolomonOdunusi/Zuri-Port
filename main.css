@@ -17,8 +17,8 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 35px 8% 0px 8%;
-  background-color: #0c0c0c6b;
+  padding: 35px 8px 0px 8px;
+  background-color: #0c0c0c36;
   height: 80px;
 }
 
@@ -55,13 +55,15 @@ nav ul li a {
 
 nav ul li :hover {
   color: rgb(255, 0, 43);
-  transition: 0.4s;
+  transition: 0.5s;
 }
 
 .bar {
   width: 30px;
   position: absolute;
   right: 0;
+  filter: opacity(0);
+ 
 }
 .button {
   background-color: #f9004d;
@@ -335,8 +337,10 @@ footer h2 {
   .bar {
     width: 30px;
     position: absolute;
+    top: 20px;
     right: 0;
-    background-color: #beb8e4;
+    background: rgb(185, 153, 153);
+    filter: brightness(100%);
   }
   nav ul li {
     filter: opacity(0%);
