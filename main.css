@@ -55,7 +55,7 @@ nav ul li a {
 
 nav ul li :hover {
   color: rgb(255, 0, 43);
-  transition: 0.4s;
+  transition: 0.5s;
 }
 
 .bar {
@@ -63,6 +63,7 @@ nav ul li :hover {
   position: absolute;
   right: 0;
   filter: opacity(0);
+ 
 }
 .button {
   background-color: #f9004d;
@@ -336,8 +337,10 @@ footer h2 {
   .bar {
     width: 30px;
     position: absolute;
+    top: 20px;
     right: 0;
-    background-color: #beb8e4;
+    background: rgb(185, 153, 153);
+    filter: brightness(100%);
   }
   nav ul li {
     filter: opacity(0%);
